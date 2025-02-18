@@ -78,7 +78,7 @@ public class Don_Vi extends JFrame {
     }
 
     private void saveResultToFile(double inputValue, String from, double convertedValue, String to) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("kết_quả.txt", true))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("ket_qua.txt", true))) {
             writer.write(inputValue + " " + from + " -> " + convertedValue + " " + to);
             writer.newLine();
         } catch (IOException e) {
@@ -88,6 +88,5 @@ public class Don_Vi extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new Don_Vi().setVisible(true));
-        
     }
 }
