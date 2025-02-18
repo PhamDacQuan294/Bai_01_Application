@@ -4,10 +4,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Don_Vi extends JFrame {
+
     private JTextField inputField;
     private JComboBox<String> fromUnit;
     private JComboBox<String> toUnit;
@@ -64,15 +68,26 @@ public class Don_Vi extends JFrame {
             double valueInMeters = inputValue / conversionRates.get(from);
             double convertedValue = valueInMeters * conversionRates.get(to);
 
-            resultLabel.setText("Kết quả: " + convertedValue + " " + to);
+            String resultText = "Kết quả: " + convertedValue + " " + to;
+            resultLabel.setText(resultText);
+
+            saveResultToFile(inputValue, from, convertedValue, to);
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Vui lòng nhập số hợp lệ!", "Lỗi", JOptionPane.ERROR_MESSAGE);
         }
     }
 
+    private void saveResultToFile(double inputValue, String from, double convertedValue, String to) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("kết_quả.txt", true))) {
+            writer.write(inputValue + " " + from + " -> " + convertedValue + " " + to);
+            writer.newLine();
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(this, "Lỗi ghi file!", "Lỗi", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new Don_Vi().setVisible(true);
-        });
+        SwingUtilities.invokeLater(() -> new Don_Vi().setVisible(true));
+        
     }
 }
