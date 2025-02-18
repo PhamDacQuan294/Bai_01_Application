@@ -62,6 +62,7 @@ public class Cv_Dt_Hcn extends JFrame {
 
     private void saveResultToFile(double sideLength, double perimeter, double area) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("ket_qua.txt", true))) {
+            writer.write("Tính chu vi và diện tích hình chữ nhật:");
             writer.write("Cạnh hình vuông: " + sideLength + " - Chu vi: " + perimeter + " - Diện tích: " + area);
             writer.newLine();
         } catch (IOException e) {
