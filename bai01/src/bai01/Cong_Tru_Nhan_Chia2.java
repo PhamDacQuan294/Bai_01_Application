@@ -219,6 +219,7 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
         });
         jPanel2.add(BTNnumber0);
 
+        BTNclear.setBackground(new java.awt.Color(255, 0, 51));
         BTNclear.setText("C");
         BTNclear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -235,6 +236,7 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
         });
         jPanel2.add(BTNsubtract);
 
+        BTNequals.setBackground(new java.awt.Color(255, 255, 0));
         BTNequals.setText("=");
         BTNequals.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
