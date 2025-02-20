@@ -1,6 +1,1 @@
-2.0 m -> 2.0 m
-2.0 m -> 2.0 m
-4.0 m -> 4.0 m
-6.0 m -> 6.0 m
-Kết quả đổi đơn vị: 4.0 m -> 4.0 m
-Kết quả đổi đơn vị: 5.0 m -> 500.0 cm
+Phương trình có hai nghiệm phân biệt: x1 = -0.5, x2 = -1.0

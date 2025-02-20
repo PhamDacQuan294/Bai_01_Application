@@ -1,5 +1,9 @@
 package bai01;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Giai_Phuong_Trinh_Bac2 extends javax.swing.JFrame {
 
 
@@ -126,15 +130,27 @@ public class Giai_Phuong_Trinh_Bac2 extends javax.swing.JFrame {
         double c = Double.parseDouble(jTextField3.getText());
         
         double delta = b * b - 4 * a * c;
+        String result = "";
+        
         if (delta > 0) {
             double nghiem1 = (-b + Math.sqrt(delta)) / (2 * a);
             double nghiem2 = (-b - Math.sqrt(delta)) / (2 * a);
             jTextField4.setText("Phương trình có hai nghiệm phân biệt: x1 = " + nghiem1 + ", x2 = " + nghiem2);
+            result = "Phương trình có hai nghiệm phân biệt: x1 = " + nghiem1 + ", x2 = " + nghiem2;
         } else if (delta == 0) {
             double nghiemKep = -b / (2 * a);
             jTextField4.setText("Phương trình có một nghiệm kép: x = " + nghiemKep);
+            result = "Phương trình có một nghiệm kép: x = " + nghiemKep;
         } else {
             jTextField4.setText("Phương trình vô nghiệm thực.");
+            result = "Phương trình vô nghiệm thực.";
+        }
+        jTextField4.setText(result);
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("ket_qua.txt"))) {
+            writer.write(result);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
