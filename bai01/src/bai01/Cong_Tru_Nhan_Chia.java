@@ -99,3 +99,4 @@ public class Cong_Tru_Nhan_Chia extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(this, "Lỗi ghi file!", "Lỗi", JOptionPane.ERROR_MESSAGE);
         }
     }
+}
