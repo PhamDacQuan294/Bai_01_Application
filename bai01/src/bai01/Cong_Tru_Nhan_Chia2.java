@@ -30,10 +30,7 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-<<<<<<< HEAD
         jSeparator1 = new javax.swing.JSeparator();
-        jButton1 = new javax.swing.JButton();
-=======
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         txtResult = new javax.swing.JTextField();
@@ -58,7 +55,6 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
         BTNclear = new javax.swing.JButton();
         BTNsubtract = new javax.swing.JButton();
         BTNequals = new javax.swing.JButton();
->>>>>>> 3b131e4029b09cef9bd48fce223efb9bc601426f
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -224,7 +220,6 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
         });
         jPanel2.add(BTNnumber0);
 
-        BTNclear.setBackground(new java.awt.Color(255, 0, 51));
         BTNclear.setText("C");
         BTNclear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -241,7 +236,6 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
         });
         jPanel2.add(BTNsubtract);
 
-        BTNequals.setBackground(new java.awt.Color(255, 255, 0));
         BTNequals.setText("=");
         BTNequals.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -411,10 +405,6 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-<<<<<<< HEAD
-    private javax.swing.JButton jButton1;
-    private javax.swing.JSeparator jSeparator1;
-=======
     private javax.swing.JButton BTNadd;
     private javax.swing.JButton BTNclear;
     private javax.swing.JButton BTNdivide;
@@ -438,7 +428,7 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextField txtResult;
->>>>>>> 3b131e4029b09cef9bd48fce223efb9bc601426f
     // End of variables declaration//GEN-END:variables
 }
