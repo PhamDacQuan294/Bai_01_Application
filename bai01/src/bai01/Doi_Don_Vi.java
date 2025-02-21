@@ -4,6 +4,8 @@
  */
 package bai01;
 
+import javax.swing.JComboBox;
+
 /**
  *
  * @author FPT
@@ -194,7 +196,27 @@ public class Doi_Don_Vi extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void mActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mActionPerformed
-        // TODO add your handling code here:
+        JComboBox<String> comboBox = (JComboBox<String>) evt.getSource();
+    String selectedUnit = (String) comboBox.getSelectedItem();
+    
+    switch (selectedUnit) {
+        case "cm":
+            // Handle centimeters
+            System.out.println("Selected unit: cm");
+            break;
+        case "m":
+            // Handle meters
+            System.out.println("Selected unit: m");
+            break;
+        case "mm":
+            // Handle millimeters
+            System.out.println("Selected unit: mm");
+            break;
+        default:
+            // Handle default case
+            System.out.println("No unit selected");
+            break;
+    }
     }//GEN-LAST:event_mActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
