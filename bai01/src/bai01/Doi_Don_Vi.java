@@ -127,7 +127,7 @@ public class Doi_Don_Vi extends javax.swing.JFrame {
 
         jLabel4.setText("Sang đơn vị :");
 
-        m.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        m.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "cm", "m", "mm" }));
         m.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 mItemStateChanged(evt);
