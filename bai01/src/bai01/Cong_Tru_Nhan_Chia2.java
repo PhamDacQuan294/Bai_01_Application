@@ -19,6 +19,7 @@ public class Cong_Tru_Nhan_Chia2 extends javax.swing.JFrame {
      */
     public Cong_Tru_Nhan_Chia2() {
         initComponents();
+        this.setLocationRelativeTo(null); 
     }
 
     /**
