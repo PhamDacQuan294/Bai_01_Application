@@ -33,3 +33,11 @@ Input: 0010, Result: Lựa chọn không hợp lệ!
 Input: 3, Result: 0011
 Input: 3, Result: 0011
 Input: 10, Result: 1010
+Kết quả: 2
+Kết quả: 10
+Kết quả: 0010
+Kết quả: 2
+Kết quả: 2
+Kết quả: 0010
+Kết quả: 0010
+Kết quả: 2
