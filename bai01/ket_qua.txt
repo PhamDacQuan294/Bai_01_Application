@@ -31,3 +31,5 @@ Input: 3, Result: 0011
 Input: 0011, Result: Lựa chọn không hợp lệ!
 Input: 0010, Result: Lựa chọn không hợp lệ!
 Input: 3, Result: 0011
+Input: 3, Result: 0011
+Input: 10, Result: 1010

@@ -24,6 +24,11 @@ public class Home extends javax.swing.JFrame {
         jLabel1.setText("Chọn Các Chức Năng");
 
         jButton1.setText("Đổi nhị phân");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton3.setText("Cv và Dt Hcn");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -99,7 +104,9 @@ public class Home extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        bai01.ChuVi_DienTich_Hv x = new bai01.ChuVi_DienTich_Hv();
+        x.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -115,8 +122,16 @@ public class Home extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
+        bai01.Doi_Don_Vi x = new bai01.Doi_Don_Vi();
+        x.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        bai01.Doi_Nhi_Phan2 x = new bai01.Doi_Nhi_Phan2();
+        x.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
