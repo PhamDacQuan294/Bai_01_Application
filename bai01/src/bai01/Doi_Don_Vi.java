@@ -117,6 +117,12 @@ public class Doi_Don_Vi extends javax.swing.JFrame {
 
         jLabel4.setText("Sang đơn vị :");
 
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+
         m.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "cm", "m", "mm" }));
         m.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
@@ -220,6 +226,10 @@ public class Doi_Don_Vi extends javax.swing.JFrame {
         // Close the current window
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
     
     private void updateResult() {
         double inputValue = 0;

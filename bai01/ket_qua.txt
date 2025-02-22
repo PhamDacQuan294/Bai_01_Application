@@ -2,3 +2,32 @@ Chu vi: 8.0
 Diện tích: 4.0
 Chu vi: 8.0
 Diện tích: 4.0
+Input: 2, Result: 10
+Input: 4, Result: 100
+Input: 001, Result: Lựa chọn không hợp lệ!
+Input: 3, Result: 11
+Input: 2, Result: 10
+Input: 1, Result: 0001
+Input: 2, Result: 0010
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 1, Result: 1
+Input: 2, Result: 0010
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 0010, Result: 1010
+Input: 001, Result: Lựa chọn không hợp lệ!
+Input: 3, Result: 0011
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 3, Result: Lựa chọn không hợp lệ!
+Input: 2, Result: 0010
+Input: 3, Result: 0011
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 3, Result: 0011
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 3, Result: 0011
+Input: 0011, Result: Lựa chọn không hợp lệ!
+Input: 0010, Result: Lựa chọn không hợp lệ!
+Input: 3, Result: 0011
