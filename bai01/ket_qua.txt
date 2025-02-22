@@ -1,4 +1,1 @@
-Phương trình có hai nghiệm phân biệt: x1 = -0.5, x2 = -1.0Result: 1.5
-
-Result: 14.0
-
+Kết quả: 200.0
