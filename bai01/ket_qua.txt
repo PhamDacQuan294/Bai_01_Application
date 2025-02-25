@@ -41,3 +41,5 @@ Kết quả: 2
 Kết quả: 0010
 Kết quả: 0010
 Kết quả: 2
+Chu vi: 16.0
+Diện tích: 16.0
